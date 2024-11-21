@@ -18,6 +18,7 @@ namespace Api.Data.Repository
         // Conjunto de entidades do tipo T no contexto do banco de dados.
         private DbSet<T> _dbSet;
 
+        //alteração para teste
         // Construtor que inicializa o contexto e o DbSet.
         public BaseRepository(MyContext context)
         {
